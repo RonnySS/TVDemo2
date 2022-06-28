@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/error_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<!--    <FrameLayout-->
+<!--        android:id="@+id/error_homepage"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"/>-->
+
+<!--        <TextView-->
+<!--            android:gravity="center"-->
+<!--            android:text="error_page!!!"-->
+<!--            android:textColor="@color/lb_tv_white"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"/>-->
+
+
+
+
+        <fragment
+        android:id="@+id/error_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.example.mytvdemo.fragments.TestFragment"/>
+
+</FrameLayout>
